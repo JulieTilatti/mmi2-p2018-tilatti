@@ -1,9 +1,26 @@
 header{
-	height: 25vh;
-	width:100%;
-	background:green;
+  display:flex;
+  flex-direction:column;
+  width:100%;
+  background:#d9d6d6;
 }
 
-.menu{
-	
+.header__titre{
+  font-family:"Antro_Vectra";
+  font-size: 2rem;
+  text-align:center;
+  height:3vh;
+}
+
+.header__menu{
+  display:flex;
+  justify-content:space-between;
+  background-color:#76151f;
+}
+
+.header__menu__item{
+  list-style:none;
+  text-decoration:none;
+
+
 }

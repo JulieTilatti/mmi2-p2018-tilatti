@@ -4,6 +4,17 @@
 @font-face {
  font-family: "Roboto";
  src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+
+}
+
+@font-face {
+ font-family: "Antro_Vectra";
+ src: url("../fonts/Antro_Vectra.otf") format("truetype");
+
+}
+
+body{
+	margin:0px;	
 }
 
 *{
@@ -11,8 +22,8 @@
 }
 
 h1 {
-  color: brown;
-  font-family: "Roboto", Arial;
+  color: pink;
+  font-family: "Antro_Vectra", Arial;
 
   &:hover {
     color: green;
