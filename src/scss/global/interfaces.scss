@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+body {
+  margin: 0px;
+  font-family: "CaviarDreams", Arial;
+}
+
+a {
+  text-decoration: none;
+
+  &:hover {
+    color: black;
+  }
+}
+
+li {
+  list-style: none;
+}
+
+
+.title {
+  color: #76151f;
+  font-family: "Antro_Vectra", Arial;
+  padding-top: 3vh;
+  text-align: center;
+}
+
+.paragraphe {
+  text-align: justify;
+  padding: 3vw;
+
+  @include medium { 
+    padding-left: 7vw;
+    padding-right: 7vw;
+  }
+
+  @include large { 
+    padding-left: 15vw;
+    padding-right: 15vw;
+  }
+}

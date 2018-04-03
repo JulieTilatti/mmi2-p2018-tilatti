@@ -1,57 +1,10 @@
+@import 'global/medias';
+@import 'global/interfaces';
+
 @import 'blocs/header';
 @import 'blocs/footer';
-
-@font-face {
- font-family: "CaviarDreams";
- src: url("../fonts/CaviarDreams.ttf") format("truetype");
-}
-
-@font-face {
- font-family: "Antro_Vectra";
- src: url("../fonts/Antro_Vectra.otf") format("truetype");
-}
-
-*{
-	box-sizing: border-box;
-	margin:0px;
-}
-
-body{
-	margin:0px;
-	font-family: "CaviarDreams", Arial;
-}
-
-a{
-  text-decoration:none;
-}
-
-li{
-	list-style:none;
-}
-
-
-h2 {
-  color: #76151f;
-  font-family: "Antro_Vectra", Arial;
-
-  &:hover {
-    color: green;
-  }
-}
-
-.presentation{
-	height:75vh;
-	background:lime;
-	margin:0px;
-	position:relative;
-}
-
-.presentation__text{
-	padding:1rem;
-	position: absolute;
-	bottom: 1rem;
-	text-align:center;
-	width:100%;
-
-
-}
+@import 'blocs/criticism';
+@import 'blocs/presentation';
+@import 'blocs/story';
+@import 'blocs/world';
+@import 'global/fonts';

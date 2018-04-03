@@ -1,0 +1,39 @@
+.world {
+  background: #76151f;
+  margin-top: 3vh;
+}
+
+.world__title {
+  color: white;
+}
+
+.world__img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @include large {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+.world__imgItem {
+  padding: 3vw;
+  color: white;
+  text-align: center;
+}
+
+.world__imgItem img {
+  width: 50vw;
+
+  @include large {
+    width: 23vw;
+
+    &:hover {
+      width: 24vw;
+      height: auto;
+    }
+  }
+
+}

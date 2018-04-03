@@ -1,0 +1,17 @@
+.criticism__link {
+  color: white;
+  background: #76151f;
+  padding: 1vw;
+  align-self: center;
+  border-radius: 5px;
+
+  &:hover {
+  	color: #d9d6d6;
+  }
+}
+
+.criticism {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}

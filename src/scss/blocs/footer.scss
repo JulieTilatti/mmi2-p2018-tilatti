@@ -1,18 +1,19 @@
-footer {
+.footer {
   background-color: #14121f;
-  display:flex;
-  flex-wrap:wrap;
-  align-item:center;
+  display: flex;
+  align-items: center;
   justify-content: space-around;
 }
 
-.footer__lien{
-	display:flex;
-	flex-direction:column;
-	color:#d9d6d6;
-	align-items:center;
-}
+.footer__lien {
+  display: flex;
+  flex-direction: column;
+  color: #d9d6d6;
+  align-items: center;
+  width: 50vw;
+  padding-top: 3vh;
 
-.footer__lien a{
-	color:#d9d6d6;
+  a {
+  color: #d9d6d6;
+  }
 }

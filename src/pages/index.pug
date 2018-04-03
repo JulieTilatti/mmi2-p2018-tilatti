@@ -1,36 +1,44 @@
 include ../partials/header.pug
 
 <section class="presentation">
-  <div class="presentation__image">
-    <p>zone pour images</p>
-  </div>
   <div class="presentation__text">
-    <p>Découvrir le nouveau roman de Michel Bussi</p>
+    <a href="#histoire">Découvrez le nouveau roman de Michel Bussi</a>
   </div>
 </section>
-<section class="histoire" id="histoire">
-  <h2 class="histoire__title">L'histoire</h2>
-  <p class="histoire__description">À Yport, parti courir sur la plus haute falaise d'Europe, Jamal a d'abord remarqué l'écharpe, rouge, accrochée à une clôture. Puis la femme, incroyablement belle, la robe déchirée, le dos face au vide, les yeux rivés aux siens. Jamal lui tend l'écharpe comme on tend une bouée.</p>
-  <p>Quelques secondes plus tard, sur les galets glacés de la plage déserte, gît le corps inerte de l'inconnue. À son cou, l'écharpe rouge.</p>
-  <p>Tout le monde pense qu'il l'a poussée. Il voulait simplement la sauver. C'est la version de Jamal. Le croyez-vous ?</p>
+<section class="story" id="histoire">
+  <h2 class="story__title title">L'histoire</h2>
+  <p class="paragraphe">À Yport, parti courir sur la plus haute falaise d'Europe, Jamal a d'abord remarqué l'écharpe, rouge, accrochée à une clôture. Puis la femme, incroyablement belle, la robe déchirée, le dos face au vide, les yeux rivés aux siens. Jamal lui tend l'écharpe comme on tend une bouée.</p>
+  <p class="paragraphe">Quelques secondes plus tard, sur les galets glacés de la plage déserte, gît le corps inerte de l'inconnue. À son cou, l'écharpe rouge.</p>
+  <p class="paragraphe">Tout le monde pense qu'il l'a poussée. Il voulait simplement la sauver. C'est la version de Jamal. Le croyez-vous ?</p>
 </section>
-<section class="critiques" id="critiques">
-  <h2 class="critiques__title">Les critiques</h2>
-  <div class="critiques__content">
-    <p>critique 1</p>
+<section class="criticism" id="critiques">
+  <h2 class="criticism__title title">Les critiques</h2>
+  <div class="criticism__content">
+    <p class="paragraphe">"Avec N'oublier jamais, Bussi s'empare de l'image du bouc émissaire qui suscite l'empathie, puis les soupçons. C'est Jamal le handicapé, coureur d'endurance de la Seine-Saint-Denis. [...] Le lecteur, lui, sait que le claudicant est la victime d'une machination, mais devra attendre les dernières pages pour en comprendre la teneur. Avec son sens de la description des paysages et son habileté de mécano, le géographe romancier fait mouche." — L'express </p>
   </div>
-  <div class="critiques__content">
-    <p>critique 2</p>
+  <div class="criticism__content">
+    <p class="paragraphe">"Une atmosphère à la Broadchurch et un suspense à la Hitchcock"  — Télé Loisirs</p>
   </div>
-  <div class="critiques__content">
-    <p>critique 3</p>
+  <div class="criticism__content">
+    <p class="paragraphe">"L'intrigue est une équation dont les inconnues s'accumulent au fil des pages. Au point qu'on a parfois l'impression que l'auteur se joue de nous. [...] Même ceux qui n'ont pas anticipé l'enquête deviendront accros à cette lecture ultra ludique." — Le Parisien</p>
   </div>
-  <a href="#" class="critiques__link">télécharger les cahiers du cinema</p>
+  <a href="../img/cahier_du_cinema.pdf" class="criticism__link">Télécharger les cahiers du cinema</a>
 </section>
-<section class="univers" id="univers">
-  <h2 class="univers__title">Découvrez l'univers</h2>
-</section>
-<section class="monde" id="monde">
-  <h2 class="monde__title">Les roman à travers le monde</h2>
+<section class="world" id="monde">
+  <h2 class="world__title title">Les roman à travers le monde</h2>
+    <div class="world__img">
+      <div class="world__imgItem">
+        <img src="../img/livre_small_italie.jpg" srcset="../img/livre_small_italie.jpg 300w, ../img/livre_medium_italie.jpg 600w, ../img/livre_medium_italie.jpg 1000w">
+        <p>En Italie</>
+      </div>
+      <div class="world__imgItem">
+        <img src="../img/livre_small_coree.jpg" srcset="../img/livre_small_coree.jpg 300w, ../img/livre_medium_coree.jpg 600w, ../img/livre_medium_coree.jpg 1000w">
+        <p>En Corée du Sud</>
+      </div>
+      <div class="world__imgItem">
+        <img class="world__img" src="../img/livre_small_allemagne.jpg" srcset="../img/livre_small_allemagne.jpg 300w, ../img/livre_medium_allemagne.jpg 600w, ../img/livre_medium_allemagne.jpg 1000w">
+        <p>En Allemagne</>
+      </div>
+    <div>
 </section>
 include ../partials/footer.pug
